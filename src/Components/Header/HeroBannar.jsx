@@ -3,8 +3,8 @@ import HeroBannerImg from "../../assets/HeroBannar.svg";
 
 const HeroBannar = () => {
   return (
-    <div className="hero bg-base-200 min-h-[75vh] ">
-      <div className="hero-content flex-col justify-between lg:flex-row-reverse">
+    <div className="hero bg-base-200 min-h-[70vh] ">
+      <div className="hero-content flex-col justify-between lg:flex-row-reverse text-primary">
         <img
           src={HeroBannerImg}
           className="max-w-sm rounded-lg shadow-2xl remove-bg "
@@ -19,7 +19,7 @@ const HeroBannar = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-secondary ">Learn More</button>
+          <button className="btn btn-primary ">Learn More</button>
         </div>
       </div>
     </div>

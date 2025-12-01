@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "../../Layouts/HomeLayout";
-import HomePage from "../../Pages/HomePage";
 import SkillDetailsPage from "../../Pages/SkillDetailsPage";
 import AuthLayout from "../../Layouts/AuthLayout";
 import SingInPage from "../../Pages/SingInPage";
@@ -9,6 +8,7 @@ import PrivetRoutes from "../PrivetRoutes/PrivetRoutes";
 import ProfilePage from "../../Pages/ProfilePage";
 import ForgetPasswordPage from "../../Pages/ForgetPasswordPage";
 import Error404 from "../../Components/Error404"
+import HomePage from "../../Pages/HomePage";
 
 const PublicRoutes = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const PublicRoutes = createBrowserRouter([
       {
         index: true,
         // path: "/home",
-        element: <HomePage />,
+        element: <HomePage/>,
       },
       {
         path: "/profile",

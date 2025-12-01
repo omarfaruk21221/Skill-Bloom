@@ -29,6 +29,17 @@ body {
   background-color: #F3F3F3;
 }
 
+.btn-primary {
+  background-color: rgb(231, 165, 11);
+  border: none;
+}
+.btn-secondary {
+  background-color: #2a2a77;
+  border: none;
+}
+
+
+
 .active {
   color: red;
   text-decoration: underline;

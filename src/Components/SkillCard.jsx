@@ -7,50 +7,26 @@ import { Link } from "react-router";
 button */
 }
 const SkillCard = ({ skillData }) => {
-  // console.log(skillData);
-  const {
-    skillId,
-    image,
-    skillName,
-    price,
-    providerName,
-    category,
-    slotsAvailable,
-    rating,
-  } = skillData;
+  const { id, authors, banner_image, title, price } = skillData;
+  console.log(authors[0]);
   return (
-    <div className="card bg-base-100 shadow-sm col-span-12 md:col-span-6 lg:col-span-4  p-4 w-fit">
+    <div className="card bg-base-100 shadow-sm hover:border translate-0.5 hover:scale-105 ease-in hover:border-warning">
       <figure>
-        <img className="rounded" src={image} alt="Shoes" />
+        <img
+          className=" w-full max-h-40  rounded-t-lg"
+          src={banner_image}
+          alt="Shoes"
+        />
       </figure>
-      <div className="card-body">
-        <h1 className="card-title text-xl">{skillName}</h1>
-        <h2 className="text-lg font-semibold">
-          <span className="text-blue-900  ">Trainer: </span>
-          <span className=" text-blue-600"> {providerName}</span>
-        </h2>
-        <div className="w-full flex justify-between items-center">
-          <aside>
-            <span className="text-lg text-secondary">Price: </span>{" "}
-            <span className="badge badge-secondary py-4 text-lg font-semibold">
-              {price} Tk{" "}
-            </span>
-          </aside>
-          <aside className="flex items-center gap-2 text-lg bg-secondary font-semibold rounded-2xl px-2 text-amber-300 ">
-            {" "}
-            <FaStar /> {rating}
-          </aside>
-        </div>
-
-        <div className="card-actions justify-between">
-          <div className="badge bg-amber-300 p-4 font-semibold ">
-            {category}
-          </div>
-          <div className="badge bg-green-300 p-4 font-semibold">
-            Available Seat: {slotsAvailable}
-          </div>
-        </div>
-        <Link to={`/skilldetails/${skillId}`} className="btn btn-primary my-3">View Details</Link>
+      <div className="card-body p-4">
+        <h1 className="card-title text-primary ">{title}</h1>
+        <span className="flex justify-between items-center">
+          <p className=" text-primary"> {authors[0]}</p>
+          <p className="text-md font-semibold">{price} Tk </p>
+        </span>
+        <Link to={`/skilldetails/${id}`} className="btn  btn-outline border-warning">
+          View Details
+        </Link>
       </div>
     </div>
   );

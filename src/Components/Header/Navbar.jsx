@@ -99,7 +99,7 @@ const Navbar = () => {
             Sign Out
           </Link>
         ) : (
-          <Link to={"/auth"} className="btn btn-warning hover:btn-secondary text-black">
+          <Link to={"/auth"} className="btn btn-warning btn-primary">
             Sign In
           </Link>
         )}

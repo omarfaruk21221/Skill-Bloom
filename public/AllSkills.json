@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "title": "CourseFree: HTML & CSS for Beginners",
+    "description": "Learn HTML & CSS fundamentals and build beautiful responsive websites.",
+    "banner_image": "https://i.ibb.co/1r2bRTH/html-css.jpg",
+    "authors": ["John Doe"],
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "HTML & CSS Basic Certificate",
+    "course_url": "https://coursefree.com/html-css",
+    "prerequisites": "Basic computer knowledge",
+    "skills_gained": ["HTML", "CSS", "Responsive Design"],
+    "modules": [
+      {"name": "HTML Basics", "lessons": 5},
+      {"name": "CSS Basics", "lessons": 6}
+    ],
+    "quizzes": true,
+    "ratings": 4.5,
+    "reviews_count": 120,
+    "support_available": true,
+    "price": 5200
+  },
+  {
+    "id": 2,
+    "title": "CourseFree: JavaScript Essentials",
+    "description": "Master JavaScript and DOM manipulation to build interactive web pages.",
+    "banner_image": "https://i.ibb.co/0m8G2FT/javascript.jpg",
+    "authors": ["Jane Smith"],
+    "duration": "6 weeks",
+    "level": "Intermediate",
+    "language": "English",
+    "certification": "JavaScript Fundamentals",
+    "course_url": "https://coursefree.com/javascript",
+    "prerequisites": "HTML & CSS basics",
+    "skills_gained": ["JavaScript", "DOM", "ES6"],
+    "modules": [
+      {"name": "JavaScript Syntax", "lessons": 7},
+      {"name": "DOM Manipulation", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.7,
+    "reviews_count": 95,
+    "support_available": true,
+    "price": 8700
+  },
+  {
+    "id": 3,
+    "title": "CourseFree: ReactJS for Beginners",
+    "description": "Build dynamic web apps using React, components, state, and hooks.",
+    "banner_image": "https://i.ibb.co/FsYQnPw/reactjs.jpg",
+    "authors": ["Alex Brown"],
+    "duration": "8 weeks",
+    "level": "Intermediate",
+    "language": "English",
+    "certification": "ReactJS Developer",
+    "course_url": "https://coursefree.com/react",
+    "prerequisites": "JavaScript basics",
+    "skills_gained": ["React", "Hooks", "State Management"],
+    "modules": [
+      {"name": "React Basics", "lessons": 6},
+      {"name": "Advanced React", "lessons": 8}
+    ],
+    "quizzes": true,
+    "ratings": 4.6,
+    "reviews_count": 110,
+    "support_available": true,
+    "price": 9500
+  },
+  {
+    "id": 4,
+    "title": "CourseFree: Node.js & Express Basics",
+    "description": "Learn backend development with Node.js & Express framework.",
+    "banner_image": "https://i.ibb.co/1QM2tdf/nodejs.jpg",
+    "authors": ["Sara Khan"],
+    "duration": "5 weeks",
+    "level": "Intermediate",
+    "language": "English",
+    "certification": "Node.js Developer",
+    "course_url": "https://coursefree.com/nodejs",
+    "prerequisites": "JavaScript basics",
+    "skills_gained": ["Node.js", "Express", "REST APIs"],
+    "modules": [
+      {"name": "Node.js Fundamentals", "lessons": 5},
+      {"name": "Express Framework", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.4,
+    "reviews_count": 70,
+    "support_available": true,
+    "price": 8100
+  },
+  {
+    "id": 5,
+    "title": "CourseFree: MongoDB for Beginners",
+    "description": "Learn NoSQL database concepts with MongoDB.",
+    "banner_image": "https://i.ibb.co/7kV1f6J/mongodb.jpg",
+    "authors": ["David Lee"],
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "MongoDB Certificate",
+    "course_url": "https://coursefree.com/mongodb",
+    "prerequisites": "Basic database knowledge",
+    "skills_gained": ["MongoDB", "NoSQL", "Data Modeling"],
+    "modules": [
+      {"name": "MongoDB Basics", "lessons": 5},
+      {"name": "Data Modeling", "lessons": 4}
+    ],
+    "quizzes": true,
+    "ratings": 4.3,
+    "reviews_count": 60,
+    "support_available": true,
+    "price": 4600
+  },
+  {
+    "id": 6,
+    "title": "CourseFree: Python for Data Science",
+    "description": "Learn Python, Pandas & data visualization techniques.",
+    "banner_image": "https://i.ibb.co/Pmjr1sC/python-data.jpg",
+    "authors": ["Emma Williams"],
+    "duration": "6 weeks",
+    "level": "Intermediate",
+    "language": "English",
+    "certification": "Python Data Science",
+    "course_url": "https://coursefree.com/python-data",
+    "prerequisites": "Basic programming",
+    "skills_gained": ["Python", "Pandas", "Visualization"],
+    "modules": [
+      {"name": "Python Basics", "lessons": 5},
+      {"name": "Data Analysis", "lessons": 6}
+    ],
+    "quizzes": true,
+    "ratings": 4.8,
+    "reviews_count": 110,
+    "support_available": true,
+    "price": 9900
+  },
+
+  {
+    "id": 7,
+    "title": "CourseFree: Digital Marketing Basics",
+    "description": "Learn SEO, content marketing & social media strategies.",
+    "banner_image": "https://i.ibb.co/9NXTs0x/digital-marketing.jpg",
+    "authors": ["Michael Johnson"],
+    "duration": "5 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Digital Marketing Basics",
+    "course_url": "https://coursefree.com/digital-marketing",
+    "prerequisites": "None",
+    "skills_gained": ["SEO", "Marketing", "Social Media"],
+    "modules": [
+      {"name": "SEO Basics", "lessons": 5},
+      {"name": "Social Media Marketing", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.2,
+    "reviews_count": 55,
+    "support_available": true,
+    "price": 6200
+  },
+
+  {
+    "id": 8,
+    "title": "CourseFree: UI/UX Design Principles",
+    "description": "Get started with UI/UX fundamentals & design tools.",
+    "banner_image": "https://i.ibb.co/wJtLLnC/ui-ux.jpg",
+    "authors": ["Laura Turner"],
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "UI/UX Design",
+    "course_url": "https://coursefree.com/ui-ux",
+    "prerequisites": "Basic design sense",
+    "skills_gained": ["UI", "UX", "Wireframing"],
+    "modules": [
+      {"name": "UI Basics", "lessons": 5},
+      {"name": "UX Process", "lessons": 6}
+    ],
+    "quizzes": true,
+    "ratings": 4.6,
+    "reviews_count": 85,
+    "support_available": true,
+    "price": 7400
+  },
+
+  {
+    "id": 9,
+    "title": "CourseFree: CSS Advanced & Animations",
+    "description": "Master advanced CSS techniques with animations.",
+    "banner_image": "https://i.ibb.co/m6bTh2Z/css-advanced.jpg",
+    "authors": ["Kevin Smith"],
+    "duration": "4 weeks",
+    "level": "Advanced",
+    "language": "English",
+    "certification": "CSS Advanced",
+    "course_url": "https://coursefree.com/css-advanced",
+    "prerequisites": "Basic CSS knowledge",
+    "skills_gained": ["Animations", "Transitions"],
+    "modules": [
+      {"name": "CSS3 Features", "lessons": 4},
+      {"name": "Animations", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.1,
+    "reviews_count": 40,
+    "support_available": true,
+    "price": 6800
+  },
+
+  {
+    "id": 10,
+    "title": "CourseFree: Python Programming Basics",
+    "description": "Learn Python programming from scratch.",
+    "banner_image": "https://i.ibb.co/F32Mqm2/python-basic.jpg",
+    "authors": ["Anna Carter"],
+    "duration": "5 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Python Basics",
+    "course_url": "https://coursefree.com/python-basic",
+    "prerequisites": "None",
+    "skills_gained": ["Python Syntax", "Functions"],
+    "modules": [
+      {"name": "Syntax Basics", "lessons": 5},
+      {"name": "Control Structures", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.5,
+    "reviews_count": 70,
+    "support_available": true,
+    "price": 5500
+  },
+
+  {
+    "id": 11,
+    "title": "CourseFree: AWS Cloud Fundamentals",
+    "description": "Learn the basics of cloud computing & AWS.",
+    "banner_image": "https://i.ibb.co/17Zp87Q/aws.jpg",
+    "authors": ["Robert Green"],
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "AWS Basics",
+    "course_url": "https://coursefree.com/aws",
+    "prerequisites": "Basic IT knowledge",
+    "skills_gained": ["Cloud", "AWS EC2", "S3"],
+    "modules": [
+      {"name": "Cloud Basics", "lessons": 4},
+      {"name": "AWS Services", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.3,
+    "reviews_count": 60,
+    "support_available": true,
+    "price": 8400
+  },
+
+  {
+    "id": 12,
+    "title": "CourseFree: Data Structures & Algorithms",
+    "description": "Learn essential DSA for coding interviews.",
+    "banner_image": "https://i.ibb.co/LYrp83p/dsa.jpg",
+    "authors": ["Emily White"],
+    "duration": "7 weeks",
+    "level": "Advanced",
+    "language": "English",
+    "certification": "DSA Expert",
+    "course_url": "https://coursefree.com/dsa",
+    "prerequisites": "Basic programming",
+    "skills_gained": ["DSA", "Sorting", "Trees"],
+    "modules": [
+      {"name": "Arrays & Lists", "lessons": 6},
+      {"name": "Sorting", "lessons": 7}
+    ],
+    "quizzes": true,
+    "ratings": 4.8,
+    "reviews_count": 140,
+    "support_available": true,
+    "price": 10000
+  },
+
+  {
+    "id": 13,
+    "title": "CourseFree: Machine Learning Basics",
+    "description": "Learn ML algorithms & supervised learning.",
+    "banner_image": "https://i.ibb.co/W6L3Zpb/machine-learning.jpg",
+    "authors": ["Victor Black"],
+    "duration": "8 weeks",
+    "level": "Advanced",
+    "language": "English",
+    "certification": "ML Beginner",
+    "course_url": "https://coursefree.com/ml",
+    "prerequisites": "Python programming",
+    "skills_gained": ["Regression", "Classification"],
+    "modules": [
+      {"name": "ML Foundations", "lessons": 6},
+      {"name": "Algorithms", "lessons": 8}
+    ],
+    "quizzes": true,
+    "ratings": 4.7,
+    "reviews_count": 100,
+    "support_available": true,
+    "price": 9600
+  },
+
+  {
+    "id": 14,
+    "title": "CourseFree: Cybersecurity Essentials",
+    "description": "Learn how to protect networks & data.",
+    "banner_image": "https://i.ibb.co/fvPwBv3/cybersecurity.jpg",
+    "authors": ["Liam Turner"],
+    "duration": "5 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Cybersecurity Basics",
+    "course_url": "https://coursefree.com/cybersecurity",
+    "prerequisites": "Basic IT skills",
+    "skills_gained": ["Threat Detection", "Data Protection"],
+    "modules": [
+      {"name": "Security Basics", "lessons": 5},
+      {"name": "Data Protection", "lessons": 4}
+    ],
+    "quizzes": true,
+    "ratings": 4.4,
+    "reviews_count": 60,
+    "support_available": true,
+    "price": 7200
+  },
+
+  {
+    "id": 15,
+    "title": "CourseFree: Project Management Basics",
+    "description": "Learn Agile, Scrum, and project planning.",
+    "banner_image": "https://i.ibb.co/RSCqqWy/project-management.jpg",
+    "authors": ["Olivia Harris"],
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "PM Basics",
+    "course_url": "https://coursefree.com/project-management",
+    "prerequisites": "None",
+    "skills_gained": ["Agile", "Scrum", "Planning"],
+    "modules": [
+      {"name": "PM Basics", "lessons": 4},
+      {"name": "Agile", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.3,
+    "reviews_count": 50,
+    "support_available": true,
+    "price": 4800
+  },
+
+  {
+    "id": 16,
+    "title": "CourseFree: Graphic Design Basics",
+    "description": "Learn Photoshop, typography & color theory.",
+    "banner_image": "https://i.ibb.co/JpXM3dZ/graphic-design.jpg",
+    "authors": ["Sophia Lopez"],
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Graphic Design",
+    "course_url": "https://coursefree.com/graphic-design",
+    "prerequisites": "None",
+    "skills_gained": ["Photoshop", "Design Principles"],
+    "modules": [
+      {"name": "Design Basics", "lessons": 5},
+      {"name": "Photoshop", "lessons": 6}
+    ],
+    "quizzes": true,
+    "ratings": 4.5,
+    "reviews_count": 75,
+    "support_available": true,
+    "price": 8900
+  },
+
+  {
+    "id": 17,
+    "title": "CourseFree: Excel for Business",
+    "description": "Master Excel formulas, pivot tables & data analysis.",
+    "banner_image": "https://i.ibb.co/JB3m41X/excel.jpg",
+    "authors": ["James Wilson"],
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Excel Basics",
+    "course_url": "https://coursefree.com/excel",
+    "prerequisites": "Basic computer skills",
+    "skills_gained": ["Excel", "Data Visualization"],
+    "modules": [
+      {"name": "Excel Basics", "lessons": 4},
+      {"name": "Data Analysis", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.4,
+    "reviews_count": 65,
+    "support_available": true,
+    "price": 4700
+  },
+
+  {
+    "id": 18,
+    "title": "CourseFree: Photography Fundamentals",
+    "description": "Learn camera settings, composition & lighting.",
+    "banner_image": "https://i.ibb.co/ZcJgFwP/photography.jpg",
+    "authors": ["Anna Miller"],
+    "duration": "4 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Photography Basics",
+    "course_url": "https://coursefree.com/photography",
+    "prerequisites": "None",
+    "skills_gained": ["Camera", "Lighting", "Composition"],
+    "modules": [
+      {"name": "Camera Basics", "lessons": 4},
+      {"name": "Composition", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.3,
+    "reviews_count": 40,
+    "support_available": true,
+    "price": 5100
+  },
+
+  {
+    "id": 19,
+    "title": "CourseFree: Creative Writing",
+    "description": "Learn storytelling, blog writing & editing.",
+    "banner_image": "https://i.ibb.co/9cT1s6L/writing.jpg",
+    "authors": ["Patricia Green"],
+    "duration": "5 weeks",
+    "level": "Beginner",
+    "language": "English",
+    "certification": "Creative Writing",
+    "course_url": "https://coursefree.com/writing",
+    "prerequisites": "Basic English",
+    "skills_gained": ["Writing", "Editing"],
+    "modules": [
+      {"name": "Storytelling Basics", "lessons": 5},
+      {"name": "Editing", "lessons": 4}
+    ],
+    "quizzes": true,
+    "ratings": 4.5,
+    "reviews_count": 55,
+    "support_available": true,
+    "price": 6900
+  },
+
+  {
+    "id": 20,
+    "title": "CourseFree: Social Media Marketing",
+    "description": "Master Facebook Ads, Instagram strategy & content planning.",
+    "banner_image": "https://i.ibb.co/WGfvvzw/social-media.jpg",
+    "authors": ["John Anderson"],
+    "duration": "6 weeks",
+    "level": "Intermediate",
+    "language": "English",
+    "certification": "Social Media Marketing",
+    "course_url": "https://coursefree.com/social-media",
+    "prerequisites": "Basic marketing knowledge",
+    "skills_gained": ["Facebook Ads", "Instagram Marketing"],
+    "modules": [
+      {"name": "Facebook Marketing", "lessons": 6},
+      {"name": "Instagram Marketing", "lessons": 5}
+    ],
+    "quizzes": true,
+    "ratings": 4.4,
+    "reviews_count": 80,
+    "support_available": true,
+    "price": 7600
+  }
+]

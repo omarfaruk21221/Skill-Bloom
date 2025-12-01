@@ -9,7 +9,7 @@ const HomeLayout = () => {
       <nav className="backdrop-blur-lg bg-primary sticky top-0 z-50">
         <Navbar />
       </nav>
-      <main className="min-h-screen flex flex-1">
+      <main className=" max-w-7xl mx-auto min-h-screen flex flex-1">
         <Outlet />
       </main>
       <Footer />
