@@ -1,0 +1,98 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 5500,
+    "rating":5.0,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners — chords, strumming patterns and basic songs.",
+    "image": "https://picsum.photos/seed/guitar-1/600/400",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10600,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions focused on pronunciation, vocabulary and confidence-building.",
+    "image": "https://picsum.photos/seed/english-2/600/400",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Intro to Web Development (HTML/CSS)",
+    "providerName": "Rafi Ahmed",
+    "providerEmail": "rafi@skillswap.com",
+    "price": 25599,
+    "rating": 5.0,
+    "slotsAvailable": 4,
+    "description": "Hands-on beginner course: build your first responsive web page using HTML & CSS.",
+    "image": "https://picsum.photos/seed/webdev-3/600/400",
+    "category": "Coding"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Morning Vinyasa Yoga",
+    "providerName": "Nadia Rahman",
+    "providerEmail": "nadia@skillswap.com",
+    "price": 15000,
+    "rating": 5.5,
+    "slotsAvailable": 6,
+    "description": "Fresh morning vinyasa flow for flexibility, strength and mindfulness (all levels welcome).",
+    "image": "https://picsum.photos/seed/yoga-4/600/400",
+    "category": "Wellness"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Mobile Photography Basics",
+    "providerName": "Ibrahim Karim",
+    "providerEmail": "ibrahim@skillswap.com",
+    "price": 7600,
+    "rating": 4.5,
+    "slotsAvailable": 5,
+    "description": "Learn composition, lighting, and editing tips to take better photos with your phone.",
+    "image": "https://picsum.photos/seed/photo-5/600/400",
+    "category": "Photography"
+  },
+  {
+    "skillId": 6,
+    "skillName": "Home Cooking: Quick Weeknight Meals",
+    "providerName": "Lina Chowdhury",
+    "providerEmail": "lina@skillswap.com",
+    "price": 12000,
+    "rating": 4.4,
+    "slotsAvailable": 8,
+    "description": "Simple, tasty and time-efficient recipes for busy weeknights — tips for meal prep included.",
+    "image": "https://picsum.photos/seed/cooking-6/600/400",
+    "category": "Cooking"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Beginner Watercolor Painting",
+    "providerName": "Tanvir Sarker",
+    "providerEmail": "tanvir@skillswap.com",
+    "price": 3200,
+    "rating": 4.6,
+    "slotsAvailable": 4,
+    "description": "Fundamentals of watercolor: color mixing, brushwork and simple landscape exercises.",
+    "image": "https://picsum.photos/seed/art-7/600/400",
+    "category": "Art"
+  },
+  {
+    "skillId": 8,
+    "skillName": "Social Media Basics for Small Businesses",
+    "providerName": "Ayesha Noor",
+    "providerEmail": "ayesha@skillswap.com",
+    "price": 4500,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Create effective posts, schedule content, and use basic analytics to grow local presence.",
+    "image": "https://picsum.photos/seed/marketing-8/600/400",
+    "category": "Digital Marketing"
+  }
+]
