@@ -28,11 +28,14 @@ const Navbar = () => {
   const links = (
     <>
       <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/profile"}>My Profile</NavLink>
+      {user && <NavLink to={"/profile"}>My Profile</NavLink>}
+      <NavLink to={"/about"}>About us</NavLink>
+      <NavLink to={"/contract"}>Contract</NavLink>
+      <NavLink to={"/galary"}>Gallary</NavLink>
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-sm ">
+    <div className="navbar w-7xl mx-auto text-white ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -60,14 +63,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="space-x-2 flex items-center">
-          <img className="w-10 h-10 " src={logo} alt="" />
-          <a className="btn btn-ghost text-xl hidden  md:block  uppercase ">
+          <img className="w-10 h-10 rounded-full " src={logo} alt="" />
+          <a className=" font-bold text-xl hidden  md:block  uppercase ">
             Skill Bloom
           </a>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 space-x-3 ">{links}</ul>
+        <ul className="menu menu-horizontal px-1 space-x-3 text-base-100 ">{links}</ul>
       </div>
       <div className="navbar-end space-x-3">
         {/* set user photo when user login  */}
@@ -92,11 +95,11 @@ const Navbar = () => {
 
         {/* log in and log out btn toggleing */}
         {user ? (
-          <Link onClick={handleSignOut} to={"/"} className="btn btn-secondary ">
+          <Link onClick={handleSignOut} to={"/"} className="btn btn-primary ">
             Sign Out
           </Link>
         ) : (
-          <Link to={"/auth"} className="btn btn-primary ">
+          <Link to={"/auth"} className="btn btn-warning hover:btn-secondary text-black">
             Sign In
           </Link>
         )}
