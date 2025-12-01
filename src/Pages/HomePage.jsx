@@ -7,6 +7,10 @@ import Status from "../Components/Status";
 import bannarImg from "../assets/bannaImg.png";
 import HeroBannar from "../Components/Header/HeroBannar";
 import Trainers from "../Components/Trainers";
+import SwiperBannar from "../Components/Header/SwiperBannar";
+import HowWorkCards from "../Components/HowWorkCards";
+import Sponsored from "../Components/Sponsored";
+import { Link } from "react-router";
 
 const HomePage = () => {
   const { TchDatas, Loading, Error } = useLoadMyData(
@@ -30,37 +34,42 @@ const HomePage = () => {
         <Status />
       </section>
 
-      <section className="my-10">
+      <section className=" my-10">
         <h1 className="text-3xl font-bold ">Popular Skills</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-11/12 mx-auto my-10">
           {TchDatas.map((skillData) => (
             <SkillCard key={skillData.id} skillData={skillData} />
           ))}
         </div>
+        <div className="flex justify-center">
+          {" "}
+          <Link className="btn btn-primary " to={"/all-course"}>
+            {" "}
+            See More Course
+          </Link>
+        </div>
+      </section>
+
+      <section>
+        <SwiperBannar />
+      </section>
+
+      <section className="my-20 max-w-6xl mx auto">
+        <Trainers />
       </section>
 
       <section>
         <HeroBannar />
       </section>
 
-      <section className="mt-20 max-w-6xl mx auto">
-        <Trainers />
+      <section className="max-w-7xl h-fit mx-auto text-center bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 text-white rounded-4xl my-20 ">
+        <Sponsored />
       </section>
 
-      {/* <section>
-        <SwiperBannar></SwiperBannar>
-      </section> */}
-
-      {/* <section className="w-10/12 h-fit mx-auto px-5 py-10 text-center bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 text-white rounded-4xl grid grid-cols-12 g-4 space-y-5">
-        <h1 className="text-3xl text-center pb-10 font-bold col-span-12 ">
-          About Us
-        </h1>
-      </section> */}
-
-      {/* <section className="my-20 space-y-5 grid grid-cols-12 gap-4 ">
+      <section className="my-20 space-y-5 grid grid-cols-12 gap-4 ">
         <h1 className="text-3xl font-bold col-span-12 ">How It's Work</h1>
-        <HowWorkCards></HowWorkCards>
-      </section> */}
+        <HowWorkCards />
+      </section>
     </div>
   );
 };

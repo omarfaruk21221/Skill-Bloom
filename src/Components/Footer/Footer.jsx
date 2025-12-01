@@ -1,18 +1,32 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router";
 
 const Footer = () => {
+  const links = (
+    <>
+      <Link to={"/"}>Home</Link>
+      <Link to={"/all-course"}>All Course</Link>
+      <Link to={"/about"}>About us</Link>
+      <Link to={"/contract"}>Contract</Link>
+    </>
+  );
   return (
     <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
       <aside>
-        <img className="w-20 h-20 rounded-full border-4 border-secondary p-1" src={logo} alt="" />
-        <p className="font-bold text-green-500 text-2xl">
-          Skill Bloom
-        </p>
-        <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+        <img
+          className="w-20 h-20 rounded-full border-4 border-secondary p-1"
+          src={logo}
+          alt=""
+        />
+        <p className="font-bold text-green-500 text-2xl">Skill Bloom</p>
+        <div className="flex flex-wrap gap-10 justify-center items-center text-secondary">
+          {links}
+        </div>
       </aside>
       <nav>
-        <div className="grid grid-flow-col gap-4">
+        {/* -social media ------------- */}
+        <div className="grid grid-flow-col gap-4 text-secondary">
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,6 +61,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
+        <p className="text-secondary">Copyright © {new Date().getFullYear()} - All right reserved</p>
       </nav>
     </footer>
   );

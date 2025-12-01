@@ -7,8 +7,11 @@ import SingUpPage from "../../Pages/SingUpPage";
 import PrivetRoutes from "../PrivetRoutes/PrivetRoutes";
 import ProfilePage from "../../Pages/ProfilePage";
 import ForgetPasswordPage from "../../Pages/ForgetPasswordPage";
-import Error404 from "../../Components/Error404"
+import Error404 from "../../Components/Error404";
 import HomePage from "../../Pages/HomePage";
+import AllCourse from "../../Pages/AllCourse/AllCourse";
+import About from "../../Pages/About";
+import Contract from "../../Pages/Contract";
 
 const PublicRoutes = createBrowserRouter([
   {
@@ -18,7 +21,20 @@ const PublicRoutes = createBrowserRouter([
       {
         index: true,
         // path: "/home",
-        element: <HomePage/>,
+        element: <HomePage />,
+      },
+      {
+        path: "/all-course",
+        element: <AllCourse />,
+      },
+
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/contract",
+        element: <Contract />,
       },
       {
         path: "/profile",
@@ -58,7 +74,7 @@ const PublicRoutes = createBrowserRouter([
   },
   {
     path: "/*",
-    element:<Error404/>,
+    element: <Error404 />,
   },
 ]);
 

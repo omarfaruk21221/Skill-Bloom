@@ -1,0 +1,162 @@
+[
+  {
+    "sponsor_id": 1,
+    "name": "Google",
+    "logo": "https://dummyimage.com/300x120/000/fff&text=Google",
+    "website": "https://www.google.com",
+    "category": "Technology",
+    "sponsorship_type": "Education & Tech Events"
+  },
+  {
+    "sponsor_id": 2,
+    "name": "Microsoft",
+    "logo": "https://dummyimage.com/300x120/0078d4/fff&text=Microsoft",
+    "website": "https://www.microsoft.com",
+    "category": "Technology",
+    "sponsorship_type": "Learning Platforms"
+  },
+  {
+    "sponsor_id": 3,
+    "name": "Amazon",
+    "logo": "https://dummyimage.com/300x120/ff9900/000&text=Amazon",
+    "website": "https://www.amazon.com",
+    "category": "E-commerce",
+    "sponsorship_type": "Tech Conferences"
+  },
+  {
+    "sponsor_id": 4,
+    "name": "Robi Axiata",
+    "logo": "https://dummyimage.com/300x120/d32f2f/fff&text=Robi",
+    "website": "https://www.robi.com.bd",
+    "category": "Telecom",
+    "sponsorship_type": "Sports & Cricket"
+  },
+  {
+    "sponsor_id": 5,
+    "name": "Grameenphone",
+    "logo": "https://dummyimage.com/300x120/1e88e5/fff&text=GP",
+    "website": "https://www.gp-bd.com",
+    "category": "Telecom",
+    "sponsorship_type": "Digital Events"
+  },
+  {
+    "sponsor_id": 6,
+    "name": "Banglalink",
+    "logo": "https://dummyimage.com/300x120/f57c00/fff&text=Banglalink",
+    "website": "https://www.banglalink.net",
+    "category": "Telecom",
+    "sponsorship_type": "Youth Programs"
+  },
+  {
+    "sponsor_id": 7,
+    "name": "Unilever",
+    "logo": "https://dummyimage.com/300x120/3949ab/fff&text=Unilever",
+    "website": "https://www.unilever.com",
+    "category": "FMCG",
+    "sponsorship_type": "Social Campaigns"
+  },
+  {
+    "sponsor_id": 8,
+    "name": "Pran-RFL",
+    "logo": "https://dummyimage.com/300x120/c62828/fff&text=PRAN-RFL",
+    "website": "https://www.pranrflgroup.com",
+    "category": "FMCG",
+    "sponsorship_type": "Sports Events"
+  },
+  {
+    "sponsor_id": 9,
+    "name": "Square Group",
+    "logo": "https://dummyimage.com/300x120/2e7d32/fff&text=Square",
+    "website": "https://www.squaregroup.com",
+    "category": "Pharma & Food",
+    "sponsorship_type": "Health Programs"
+  },
+  {
+    "sponsor_id": 10,
+    "name": "ACI Limited",
+    "logo": "https://dummyimage.com/300x120/388e3c/fff&text=ACI",
+    "website": "https://www.aci-bd.com",
+    "category": "Pharma & Consumer",
+    "sponsorship_type": "Education Initiatives"
+  },
+  {
+    "sponsor_id": 11,
+    "name": "City Bank",
+    "logo": "https://dummyimage.com/300x120/b71c1c/fff&text=City+Bank",
+    "website": "https://www.citybankplc.com",
+    "category": "Banking",
+    "sponsorship_type": "Corporate Training"
+  },
+  {
+    "sponsor_id": 12,
+    "name": "BRAC Bank",
+    "logo": "https://dummyimage.com/300x120/0d47a1/fff&text=BRAC+Bank",
+    "website": "https://www.bracbank.com",
+    "category": "Banking",
+    "sponsorship_type": "SME Development"
+  },
+  {
+    "sponsor_id": 13,
+    "name": "bKash",
+    "logo": "https://dummyimage.com/300x120/e91e63/fff&text=bKash",
+    "website": "https://www.bkash.com",
+    "category": "Fintech",
+    "sponsorship_type": "Digital Payments"
+  },
+  {
+    "sponsor_id": 14,
+    "name": "Nagad",
+    "logo": "https://dummyimage.com/300x120/fbc02d/000&text=Nagad",
+    "website": "https://nagad.com.bd",
+    "category": "Fintech",
+    "sponsorship_type": "Mobile Financial"
+  },
+  {
+    "sponsor_id": 15,
+    "name": "Daraz",
+    "logo": "https://dummyimage.com/300x120/424242/fff&text=Daraz",
+    "website": "https://www.daraz.com.bd",
+    "category": "E-commerce",
+    "sponsorship_type": "Online Shopping Events"
+  },
+  {
+    "sponsor_id": 16,
+    "name": "Pathao",
+    "logo": "https://dummyimage.com/300x120/263238/fff&text=Pathao",
+    "website": "https://pathao.com",
+    "category": "Ride Sharing",
+    "sponsorship_type": "Youth & Mobility"
+  },
+  {
+    "sponsor_id": 17,
+    "name": "Shwapno",
+    "logo": "https://dummyimage.com/300x120/d32f2f/fff&text=Shwapno",
+    "website": "https://shwapno.com",
+    "category": "Retail",
+    "sponsorship_type": "Consumer Promotions"
+  },
+  {
+    "sponsor_id": 18,
+    "name": "Walton",
+    "logo": "https://dummyimage.com/300x120/1a237e/fff&text=Walton",
+    "website": "https://waltonbd.com",
+    "category": "Electronics",
+    "sponsorship_type": "Tech Exhibitions"
+  },
+  {
+    "sponsor_id": 19,
+    "name": "Singer Bangladesh",
+    "logo": "https://dummyimage.com/300x120/880e4f/fff&text=Singer",
+    "website": "https://www.singerbd.com",
+    "category": "Electronics",
+    "sponsorship_type": "Home Appliance Shows"
+  },
+  {
+    "sponsor_id": 20,
+    "name": "Aarong",
+    "logo": "https://dummyimage.com/300x120/4e342e/fff&text=Aarong",
+    "website": "https://www.aarong.com",
+    "category": "Fashion",
+    "sponsorship_type": "Cultural Events"
+  }
+]

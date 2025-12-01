@@ -3,7 +3,7 @@ import HeroBannerImg from "../../assets/HeroBannar.svg";
 
 const HeroBannar = () => {
   return (
-    <div className="hero bg-base-200 min-h-[70vh] ">
+    <div className="hero bg-base-200 min-h-[50vh] ">
       <div className="hero-content flex-col justify-between lg:flex-row-reverse text-primary">
         <img
           src={HeroBannerImg}

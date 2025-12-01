@@ -28,10 +28,15 @@ const Navbar = () => {
   const links = (
     <>
       <NavLink to={"/"}>Home</NavLink>
-      {user && <NavLink to={"/profile"}>My Profile</NavLink>}
+      <NavLink to={"/all-course"}>All Course</NavLink>
       <NavLink to={"/about"}>About us</NavLink>
       <NavLink to={"/contract"}>Contract</NavLink>
-      <NavLink to={"/galary"}>Gallary</NavLink>
+      {user && (
+        <>
+          <NavLink to={"/profile"}>My Profile</NavLink>
+          <NavLink to={"/profile"}>DashBoard</NavLink>
+        </>
+      )}
     </>
   );
   return (
@@ -70,7 +75,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 space-x-3 text-base-100 ">{links}</ul>
+        <ul className="menu menu-horizontal px-1 space-x-3 text-base-100 ">
+          {links}
+        </ul>
       </div>
       <div className="navbar-end space-x-3">
         {/* set user photo when user login  */}
@@ -99,7 +106,7 @@ const Navbar = () => {
             Sign Out
           </Link>
         ) : (
-          <Link to={"/auth"} className="btn btn-warning btn-primary">
+          <Link to={"/auth"} className="btn  btn-primary">
             Sign In
           </Link>
         )}
