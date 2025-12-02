@@ -10,7 +10,7 @@ const SkillCard = ({ skillData }) => {
   const { id, authors, banner_image, title, price } = skillData;
   console.log(authors[0]);
   return (
-    <div className="card bg-base-100 shadow-sm hover:border translate-0.5 hover:scale-105 ease-in hover:border-warning">
+    <div className="card bg-base-100 shadow-xl border border-accent  hover:border hover:scale-105 transform transition-all duration-300 hover:border-warning">
       <figure>
         <img
           className=" w-full max-h-40  rounded-t-lg"
@@ -24,7 +24,10 @@ const SkillCard = ({ skillData }) => {
           <p className=" text-primary"> {authors[0]}</p>
           <p className="text-md font-semibold">{price} Tk </p>
         </span>
-        <Link to={`/skilldetails/${id}`} className="btn  btn-outline border-warning">
+        <Link
+          to={`/skilldetails/${id}`}
+          className="btn  btn-outline border-warning"
+        >
           View Details
         </Link>
       </div>

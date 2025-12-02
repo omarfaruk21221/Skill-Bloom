@@ -52,7 +52,7 @@ const SkillDetails = () => {
 
   return (
     <div className="w-full min-h-screen bg-base-200 py-10">
-      <div className="w-11/12 mx-auto p-6 bg-white shadow-xl rounded-xl">
+      <div className="w-11/12 mx-auto p-6 bg-base-100 shadow-xl rounded-xl">
         <section className=" grid gap-10 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center  ">
           <aside className="md:col-span-1">
             {/* Banner */}
@@ -130,17 +130,14 @@ const SkillDetails = () => {
 
           {/* Support */}
           <div className="mt-4">
-            <h3 className="text-xl font-semibold mb-2">
-              Support Available
-            </h3>{" "}
-             <span
-                  className={`px-2 py-1 rounded text-white  ${
-                    support_available ? "bg-green-500" : "bg-red-400"
-                  }`}
-                >
-                  {support_available ? "Yes" : "No"}
-                </span>
-
+            <h3 className="text-xl font-semibold mb-2">Support Available</h3>{" "}
+            <span
+              className={`px-2 py-1 rounded text-white  ${
+                support_available ? "bg-green-500" : "bg-red-400"
+              }`}
+            >
+              {support_available ? "Yes" : "No"}
+            </span>
           </div>
 
           {/* Modules & Quizzes */}
@@ -197,7 +194,7 @@ const SkillDetails = () => {
         <Modal
           isOpen={isOpen}
           onRequestClose={() => setIsOpen(false)}
-          className="bg-white p-6 rounded-lg shadow-xl w-96 mx-auto mt-20 relative"
+          className="bg-base-100 p-6 rounded-lg shadow-xl w-96 mx-auto mt-20 relative"
           overlayClassName="fixed inset-0 bg-black/50 flex justify-center items-center"
         >
           <button

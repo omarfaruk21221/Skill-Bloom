@@ -13,7 +13,7 @@ const Contract = () => {
   return (
     <section className=" py-16 px-6">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+        <h2 className="text-4xl font-bold text-primary-content mb-4">Get in Touch</h2>
         <p className="text-gray-600 mb-12">
           Have any questions or want to collaborate? Reach out to us using the
           form or through our various contact channels below.
@@ -50,54 +50,54 @@ const Contract = () => {
           {/* Multiple Contact Options */}
           <div className="space-y-6">
             {/* Address */}
-            <div className="bg-white shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
-              <FaMapMarkerAlt className="text-blue-500 text-2xl" />
+            <div className="bg-base-100 border border-accent shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
+              <FaMapMarkerAlt className="text-primary-content text-2xl" />
               <div>
-                <h4 className="font-semibold text-gray-700">Address</h4>
-                <p className="text-gray-600">
+                <h4 className="font-semibold text-primary-content">Address</h4>
+                <p className=" text-primary-content">
                   123 Main Street, Dhaka, Bangladesh
                 </p>
               </div>
             </div>
 
             {/* Phone */}
-            <div className="bg-white shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
+            <div className="bg-base-100 border border-accent shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
               <FaPhone className="text-green-500 text-2xl" />
               <div>
-                <h4 className="font-semibold text-gray-700">Phone</h4>
-                <p className="text-gray-600">+880 1234 567890</p>
+                <h4 className="font-semibold text-primary-content">Phone</h4>
+                <p className="text-primary-content">+880 1234 567890</p>
               </div>
             </div>
 
             {/* Email */}
-            <div className="bg-white shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
+            <div className="bg-base-100 border border-accent  shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
               <FaEnvelope className="text-red-500 text-2xl" />
               <div>
-                <h4 className="font-semibold text-gray-700">Email</h4>
-                <p className="text-gray-600">info@institution.com</p>
+                <h4 className="font-semibold text-primary-content">Email</h4>
+                <p className="text-primary-content">info@institution.com</p>
               </div>
             </div>
 
             {/* WhatsApp */}
-            <div className="bg-white shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
+            <div className="bg-base-100 border border-accent shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
               <FaWhatsapp className="text-green-600 text-2xl" />
               <div>
-                <h4 className="font-semibold text-gray-700">WhatsApp</h4>
-                <p className="text-gray-600">+880 1234 567890</p>
+                <h4 className="font-semibold text-primary-content">WhatsApp</h4>
+                <p className="text-primary-content">+880 1234 567890</p>
               </div>
             </div>
 
             {/* Telegram */}
-            <div className="bg-white shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
+            <div className="bg-base-100 border border-accent shadow-lg rounded-2xl p-6 flex items-center space-x-4 hover:scale-105 transform transition-all duration-300">
               <FaTelegram className="text-blue-400 text-2xl" />
               <div>
-                <h4 className="font-semibold text-gray-700">Telegram</h4>
-                <p className="text-gray-600">@institution_support</p>
+                <h4 className="font-semibold text-primary-content">Telegram</h4>
+                <p className="text-primary-content">@institution_support</p>
               </div>
             </div>
 
             {/* Social Media */}
-            <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col space-y-4 hover:scale-105 transform transition-all duration-300">
+            <div className="bg-base-100 border border-accent shadow-lg rounded-2xl p-6 flex flex-col space-y-4 hover:scale-105 transform transition-all duration-300">
               <h4 className="font-semibold text-gray-700 mb-2">Follow Us</h4>
               <div className="flex space-x-4 justify-center">
                 <a
