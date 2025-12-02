@@ -4,6 +4,7 @@ import logo from "../../assets/logo.png";
 import userIcon from "../../assets/user.png";
 import { AuthContext } from "../../Contexts/AuthContext/AuthContext";
 import { toast } from "react-toastify";
+import ThemeToggle from "../ThemeToggle";
 
 const Navbar = () => {
   const { user, SignOut } = use(AuthContext);
@@ -110,6 +111,9 @@ const Navbar = () => {
             Sign In
           </Link>
         )}
+        <span>
+          <ThemeToggle />
+        </span>
       </div>
     </div>
   );

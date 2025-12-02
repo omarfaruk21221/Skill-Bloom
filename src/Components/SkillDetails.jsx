@@ -125,7 +125,7 @@ const SkillDetails = () => {
           {/* Prerequisites */}
           <div className="">
             <h2 className="text-xl font-semibold mb-2">Prerequisites</h2>
-            <p className="list-disc ml-6 text-gray-700">{prerequisites}</p>
+            <p className="text-gray-700">{prerequisites}</p>
           </div>
 
           {/* Support */}

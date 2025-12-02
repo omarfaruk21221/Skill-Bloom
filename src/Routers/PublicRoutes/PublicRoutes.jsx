@@ -29,12 +29,7 @@ const PublicRoutes = createBrowserRouter([
       },
       {
         path: "/skilldetails/:id",
-        element: (
-          <SkillDetailsPage />
-          // <PrivetRoutes>
-          //   <SkillDetailsPage />
-          // </PrivetRoutes>
-        ),
+        element: <SkillDetailsPage />,
       },
 
       {
