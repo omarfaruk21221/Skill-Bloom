@@ -35,13 +35,12 @@ const Navbar = () => {
       {user && (
         <>
           <NavLink to={"/profile"}>My Profile</NavLink>
-          <NavLink to={"/profile"}>DashBoard</NavLink>
         </>
       )}
     </>
   );
   return (
-    <div className="navbar w-7xl mx-auto text-white ">
+    <div className="navbar max-w-7xl mx-auto px-4">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

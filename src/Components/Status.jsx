@@ -8,7 +8,7 @@ import {
 const Status = () => {
   return (
     <>
-      <section className="card col-span-12 md:col-span-6 lg:col-span-3 w-60 h-40 mx-auto pt-6 bg-base-100 text-primary shadow-2xl text-center space-y-1 hover:bg-primary-content hover:text-base-100 hover:scale-110 transform ease-in-out">
+      <section className="card w-60 h-40 mx-auto pt-6 bg-base-100 text-primary shadow-2xl text-center space-y-1 hover:bg-primary-content hover:text-base-100 hover:scale-105 transform translate-1 ">
         <span className="text-3xl mx-auto text-green-500 ">
           <FaUserGraduate />
         </span>
