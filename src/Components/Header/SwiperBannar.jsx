@@ -22,7 +22,7 @@ const SwiperBannar = () => {
         loop={true}
         className="rounded-2xl overflow-hidden shadow-lg"
       >
-        {slides.map((slide, idx) => (
+        {slides?.map((slide, idx) => (
           <SwiperSlide key={idx}>
             <img
               src={slide}

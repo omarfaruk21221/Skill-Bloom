@@ -14,7 +14,7 @@ import { Link } from "react-router";
 
 const HomePage = () => {
   const { TchDatas, Loading, Error } = useLoadMyData(
-    "../../public/TopCourse.json"
+    "/TopCourse.json"
   );
   // console.log(TchDatas, Loading, Error);
 
@@ -37,7 +37,7 @@ const HomePage = () => {
       <section className=" my-10">
         <h1 className="text-3xl font-bold ">Popular Skills</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-11/12 mx-auto my-10">
-          {TchDatas.map((skillData) => (
+          {TchDatas?.map((skillData) => (
             <SkillCard key={skillData.id} skillData={skillData} />
           ))}
         </div>

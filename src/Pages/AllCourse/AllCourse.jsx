@@ -7,25 +7,29 @@ const AllCourse = () => {
   const [searchText, setSearchText] = useState("");
   const [sortBy, setSortBy] = useState("");
   const { TchDatas, Loading, Error } = useLoadMyData(
-    "../../../public/AllSkills.json"
+    "/AllSkills.json"
   );
-  const filteredCourses = TchDatas.filter((course) =>
-    course.title.toLowerCase().includes(searchText.toLowerCase())
-  );
+  const filteredCourses = Array.isArray(TchDatas)
+    ? TchDatas.filter((course) =>
+        course.title.toLowerCase().includes(searchText.toLowerCase())
+      )
+    : [];
+
   // console.log(TchDatas, Loading, Error);
   if (Loading) return <LoadingSpine />;
   if (Error) return <p>{Error} </p>;
 
   // ↕ SORTING
-  if (sortBy === "name") {
-    TchDatas.sort((a, b) => a.title.localeCompare(b.title));
+  if (Array.isArray(TchDatas)) {
+    if (sortBy === "name") {
+      TchDatas.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortBy === "low-high") {
+      TchDatas.sort((a, b) => a.price - b.price);
+    } else if (sortBy === "high-low") {
+      TchDatas.sort((a, b) => b.price - a.price);
+    }
   }
-  if (sortBy === "low-high") {
-    TchDatas.sort((a, b) => a.price - b.price);
-  }
-  if (sortBy === "high-low") {
-    TchDatas.sort((a, b) => b.price - a.price);
-  }
+
   return (
     <div className="w-full">
       <h1 className=" text-3xl font-bold text-primary  text-center pt-5 ">
@@ -74,7 +78,7 @@ const AllCourse = () => {
         </label>
       </section>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-11/12 mx-auto my-10">
-        {filteredCourses.map((skillData) => (
+        {filteredCourses?.map((skillData) => (
           <SkillCard key={skillData.id} skillData={skillData} />
         ))}
       </div>

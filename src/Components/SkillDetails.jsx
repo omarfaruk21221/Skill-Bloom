@@ -98,7 +98,7 @@ const SkillDetails = () => {
 
             {/* Rating */}
             <div className="flex items-center gap-2 mt-6 text-lg">
-              {Array.from({ length: Math.floor(ratings) }).map((_, i) => (
+              {Array.from({ length: Math.floor(ratings || 0) }).map((_, i) => (
                 <FaStar key={i} className="text-yellow-500" />
               ))}
               <span className="font-semibold">{ratings}</span>
@@ -113,11 +113,13 @@ const SkillDetails = () => {
         <div className="mt-5">
           <h2 className="text-xl font-semibold mb-2">Skills You Will Gain</h2>
           <div className="flex flex-wrap gap-3">
-            {skills_gained?.map((s, idx) => (
-              <span key={idx} className="badge badge-primary p-3 text-white">
-                {s}
-              </span>
-            ))}
+            {(Array.isArray(skills_gained) ? skills_gained : []).map(
+              (s, idx) => (
+                <span key={idx} className="badge badge-primary p-3 text-white">
+                  {s}
+                </span>
+              )
+            )}
           </div>
         </div>
 
@@ -144,10 +146,10 @@ const SkillDetails = () => {
           <div className="mt-6">
             <h3 className="text-xl font-semibold mb-2">Modules</h3>{" "}
             <p>
-              Module Name: <span>{modules[0].name}</span>{" "}
+              Module Name: <span>{modules?.[0]?.name || "N/A"}</span>
             </p>
             <p>
-              Module Lessons: <span>{modules[0].lessons}</span>{" "}
+              Module Lessons: <span>{modules?.[0]?.lessons || "N/A"}</span>
             </p>
           </div>
 
